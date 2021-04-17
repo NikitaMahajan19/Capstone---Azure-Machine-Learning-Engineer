@@ -77,7 +77,7 @@ Following models were trained
 The  Model with highest accuracy was Voting Ensemble Model with accuracy of 0.66449 (66.449%).
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/automl%20model.JPG)
-![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%20automl.JPG)
+
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/accuracy%20of%20automl.png)
 
 Run Deatils
@@ -85,12 +85,21 @@ Run Deatils
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details.JPG)
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details1.JPG)
 
-
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+ best model trained 
+ ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%20automl.JPG)
 
 ## Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+For HyperDrive I have chosen the LogisticRegression classifier as a model because our is a classification problem. Our target column of the dataset is to predict whether a person is diabetic or not (i.e. 1 or 0). the model is trained using the script written in 'train.py' file.
 
+I have used following parameters
+
+param_sampling = RandomParameterSampling(
+    {
+        '--C' : choice(0.001,0.01,0.1,0.5,1.0,10.0,50.0,100,1000),
+        '--max_iter': choice(10,25)
+    }
+)
 
 ### Results
 *TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
