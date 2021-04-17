@@ -56,6 +56,8 @@ automl_settings = {"experiment_timeout_minutes": 30,
     "n_cross_validations": 3,
     "iterations": 24
 }
+
+
 I have given following configuration for AutoML run
 
 automl_config = AutoMLConfig(compute_target=compute_target,
