@@ -46,6 +46,7 @@ Following steps:
 ### Access
 I uploaded the dataset in the Azure Machine Learning Studio in Datasets tab through the 'upload from local file' option. The dataset is given the name ‘Diabetes’
 
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/Dataset%20d.JPG)
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
