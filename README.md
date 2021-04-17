@@ -9,7 +9,10 @@ And the best model from the above methods will be deployed.
 We will be using a LogisticRegression classifier for training the model and accuracy as a metric for checking the best model.
 
 ## Dataset
-![Pima Indians Diabetes Dataset](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
+Pima Indians Diabetes Dataset
+https://www.kaggle.com/uciml/pima-indians-diabetes-database
+
+### Overview
 
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 
@@ -27,11 +30,19 @@ DiabetesPedigreeFunction: Diabetes pedigree function
 Age: Age (years)
 Outcome: Class variable (0 or 1)
 
-### Overview
-*TODO*: Explain about the data you are using and where you got it from.
-
 ### Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+In this project our task is to predict whether a user is diabetic or not based on features.
+
+
+Following steps:
+1. This project requires creating compute instance to run Jupyter Notebook & compute cluster to run the experiments.
+ 
+2. Dataset needs to be manually uploaded.
+ 
+3. Experiments were run using Auto-ML & HyperDrive.
+ 
+4. The best model was deployed and consumed that gave good metrics.
+
 
 ### Access
 *TODO*: Explain how you are accessing the data in your workspace.
