@@ -1,4 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
 # Capstone Project - Azure Machine Learning Engineer
 
@@ -45,7 +44,7 @@ Following steps:
 
 
 ### Access
-*TODO*: Explain how you are accessing the data in your workspace.
+I uploaded the dataset in the Azure Machine Learning Studio in Datasets tab through the 'upload from local file' option. The dataset is given the name ‘Diabetes’
 
 ## Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
