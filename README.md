@@ -48,7 +48,24 @@ I uploaded the dataset in the Azure Machine Learning Studio in Datasets tab thro
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/Dataset%20d.JPG)
 ## Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+I have given following  settings for AutoML run
+
+automl_settings = {"experiment_timeout_minutes": 30,
+    "max_concurrent_iterations": 4,
+    "primary_metric" : 'accuracy',
+    "n_cross_validations": 3,
+    "iterations": 24
+}
+I have given following configuration for AutoML run
+
+automl_config = AutoMLConfig(compute_target=compute_target,
+                             task = 'classification',
+                             training_data=dataset,
+                             label_column_name='Column9',
+                             enable_early_stopping= True,
+                             featurization = 'auto',
+                             debug_log = 'automl_errors.log',
+                            )
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
