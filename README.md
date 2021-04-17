@@ -87,9 +87,17 @@ Run Deatils
 
  best model trained 
  ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%20automl.JPG)
+ 
+ Following graphs can be found 
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/c%20curve.JPG)
+
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/cg%20curve.JPG)
+
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/precision%20recall.JPG)
+
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/roc.JPG)
 
 ## Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 For HyperDrive I have chosen the LogisticRegression classifier as a model because our is a classification problem. Our target column of the dataset is to predict whether a person is diabetic or not (i.e. 1 or 0). the model is trained using the script written in 'train.py' file.
 
 I have used following parameters
@@ -128,14 +136,7 @@ Best Model
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/deployed%20model.JPG)
 
-Following graphs can be found 
-![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/c%20curve.JPG)
 
-![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/cg%20curve.JPG)
-
-![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/precision%20recall.JPG)
-
-![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/roc.JPG)
 
 Then consuming endpoint
 
