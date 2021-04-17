@@ -48,6 +48,32 @@ I uploaded the dataset in the Azure Machine Learning Studio in Datasets tab thro
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/Dataset%20d.JPG)
 ## Automated ML
+Overview of the parameters
+
+ 
+experiment_timeout_minutes: I have set to 30 .. The experiment will timeout after this period to avoid over utilizing of resources.
+ 
+max_concurrent_iterations: Set to 4. The max no. of concurrent iterations.
+primary_metric: Set to 'accuracy', best suitable metrics for classification problems.
+ 
+n_cross_validations: Set to 3, therefore the training and validation sets will be divided into three equal sets.
+ 
+iterations: Number of iterations for the experiment is set to 24. For a number of iterations to be performed to prepare the model.
+ 
+compute_target: To Set project cluster used for the experiment.
+task: set to 'classification' since our target is  to predict whether the user is diabetic or not.
+ 
+training_data: To provide the dataset which we loaded for the project.
+label_column_name: Set to the result/target column in the dataset 'column 9' (0 or 1).
+ 
+enable_early_stopping: Enabled to terminate the experiment if there is no improvement in model performed after few runs.
+ 
+featurization: Set to 'auto', it's an indicator of whether implementing a featurization step to preprocess/clean the dataset automatically or not.
+ 
+debug_log: For specific files wherein we can log everything.
+
+
+
 I have given following  settings for AutoML run
 
 automl_settings = {"experiment_timeout_minutes": 30,
