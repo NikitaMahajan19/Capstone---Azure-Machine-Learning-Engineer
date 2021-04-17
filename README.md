@@ -102,7 +102,17 @@ param_sampling = RandomParameterSampling(
 )
 
 ### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+Following =are the Run details for HyperDrive with Parameter details
+
+https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/hyperdrive%20run%20f.png
+
+Best performing model has a 63.958% accuracy rate with --C = 1000 and --max_iter = 25.
+
+Run details 
+https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details%20hyper%20f.png
+https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/hyper%20graph.png
+https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/hyper%20graph%202.png
+
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
