@@ -111,6 +111,8 @@ Best performing model has a 63.958% accuracy rate with --C = 1000 and --max_iter
 Run details 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details%20hyper%20f.png)
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/hyper%20graph.png)
+
+
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/hyper%20graph%202.png)
 
 
