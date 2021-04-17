@@ -1,13 +1,31 @@
 *NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
 
-# Your Project Title Here
+# Capstone Project - Azure Machine Learning Engineer
 
-*TODO:* Write a short introduction to your project.
-
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
+In this project, we are asked to create a model and it's pipeline using Azure Machine Learning Studio and then deploy the best model and consume it. For this, we will be using two approaches in this project to create a model:
+AutoML
+HyperDrive
+And the best model from the above methods will be deployed. 
+We will be using a LogisticRegression classifier for training the model and accuracy as a metric for checking the best model.
 
 ## Dataset
+Pima Indians Diabetes Dataset
+
+This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
+
+The datasets consist of several medical predictor variables and one target variable, Outcome. Predictor variables include the number of pregnancies the patient has had, their BMI, insulin level, age, and so on.
+
+The details of Nine columns is as follows:
+
+Pregnancies: Number of times pregnant
+Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
+BloodPressure: Diastolic blood pressure (mm Hg)
+SkinThickness: Triceps skin fold thickness (mm)
+Insulin: 2-Hour serum insulin (mu U/ml)
+BMI: Body mass index (weight in kg/(height in m)^2)
+DiabetesPedigreeFunction: Diabetes pedigree function
+Age: Age (years)
+Outcome: Class variable (0 or 1)
 
 ### Overview
 *TODO*: Explain about the data you are using and where you got it from.
