@@ -9,7 +9,7 @@ And the best model from the above methods will be deployed.
 We will be using a LogisticRegression classifier for training the model and accuracy as a metric for checking the best model.
 
 ## Dataset
-Pima Indians Diabetes Dataset
+![Pima Indians Diabetes Dataset](https://www.kaggle.com/uciml/pima-indians-diabetes-database)
 
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. The objective of the dataset is to diagnostically predict whether or not a patient has diabetes, based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. In particular, all patients here are females at least 21 years old of Pima Indian heritage.
 
