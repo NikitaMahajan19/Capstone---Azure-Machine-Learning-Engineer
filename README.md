@@ -48,7 +48,7 @@ I uploaded the dataset in the Azure Machine Learning Studio in Datasets tab thro
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/Dataset%20d.JPG)
 ## Automated ML
-Overview of the parameters
+**Overview of the parameters
 
  
 experiment_timeout_minutes: I have set to 30 .. The experiment will timeout after this period to avoid over utilizing of resources.
@@ -103,6 +103,10 @@ Following models were trained
 The  Model with highest accuracy was Voting Ensemble Model with accuracy of 0.66449 (66.449%).
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/automl%20model.JPG)
+
+**run id
+
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20id.JPG)
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/accuracy%20of%20automl.png)
 
