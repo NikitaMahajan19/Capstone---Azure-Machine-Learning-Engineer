@@ -119,11 +119,18 @@ The  Model with highest accuracy was Voting Ensemble Model with accuracy of 0.66
 
  #### Best model trained 
  ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%20automl.JPG)
+ 
+ 
  ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model.JPG)
+ 
+ 
  ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%201.JPG)
+ 
+ 
  
  #### Best Model ID
   ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%20id.JPG)
+  
  
  Following graphs can be found 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/c%20curve.JPG)
