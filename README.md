@@ -175,4 +175,11 @@ Following is the link
 
 https://drive.google.com/file/d/1fn0LEKvIpSngQ-p4UAJtn4HFwPE53IOP/view?usp=sharing
 
+## Future improvements:
+
+There are many mistakes and outliers in the dataset if that can be removed then we can improve prediction.
+
+Training the dataset using different models like KNN, Neural Networks etc.
+
+In the AutoML experiment, we can try Interchanging n_cross_validations value from (2 till 7) and see if the accuracy can be improved by tuning this parameter.
 
