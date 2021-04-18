@@ -48,7 +48,7 @@ I uploaded the dataset in the Azure Machine Learning Studio in Datasets tab thro
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/Dataset%20d.JPG)
 ## Automated ML
-**Overview of the parameters
+#### Overview of the parameters
 
  
 experiment_timeout_minutes: I have set to 30 .. The experiment will timeout after this period to avoid over utilizing of resources.
@@ -104,18 +104,20 @@ The  Model with highest accuracy was Voting Ensemble Model with accuracy of 0.66
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/automl%20model.JPG)
 
-**run id
+![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/accuracy%20of%20automl.png)
+
+#### run id
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20id.JPG)
 
-![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/accuracy%20of%20automl.png)
 
-Run Deatils
+
+#### Run Deatils
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details.JPG)
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details1.JPG)
 
- best model trained 
+ #### Best model trained 
  ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/best%20model%20automl.JPG)
  
  Following graphs can be found 
@@ -146,7 +148,8 @@ Following =are the Run details for HyperDrive with Parameter details
 
 Best performing model has a 63.958% accuracy rate with --C = 1000 and --max_iter = 25.
 
-Run details 
+#### Run details 
+
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/run%20details%20hyper%20f.png)
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/hyper%20graph.png)
 
@@ -158,7 +161,7 @@ Run details
 
 Since the accuracy of AutoML experiment was more than HyperDriveexperiment therefore I deployed the best model that is  AutoMl.
 
-Best Model
+#### Best Model
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/deployed%20model%20auto1.JPG)
 
@@ -168,7 +171,7 @@ Best Model
 
 
 
-Then consuming endpoint
+#### Then consuming endpoint
 
 ![alt text](https://github.com/NikitaMahajan19/Capstone---Azure-Machine-Learning-Engineer/blob/master/images/endpoint.JPG)
 
